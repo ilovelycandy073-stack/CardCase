@@ -17,7 +17,7 @@ TC_REGION=ap-guangzhou   # optional
 你也可将这些密钥以相同的名称配置为环境变量。
 
 
-##重要目录/文件说明：
+## 重要目录/文件说明：
 App.java：Application 入口；加载 SQLCipher native 库，并初始化默认证件类型数据。
 
 core.auth.BiometricGate.java：生物识别“门禁”封装（用于进入敏感页面/查看敏感数据前做验证）。
